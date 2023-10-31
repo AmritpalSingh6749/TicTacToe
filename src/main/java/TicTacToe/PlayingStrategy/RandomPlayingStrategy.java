@@ -1,7 +1,7 @@
-package PlayingStrategy;
+package TicTacToe.PlayingStrategy;
 
-import Models.Board;
-import Models.Cells;
+import TicTacToe.Models.Board;
+import TicTacToe.Models.Cells;
 
 import java.util.List;
 

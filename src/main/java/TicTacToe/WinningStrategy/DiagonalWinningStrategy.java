@@ -1,9 +1,7 @@
-package WinningStrategy;
+package TicTacToe.WinningStrategy;
 
-import Models.Board;
-import Models.Symbols;
-
-import java.util.Collections;
+import TicTacToe.Models.Board;
+import TicTacToe.Models.Symbols;
 
 public class DiagonalWinningStrategy implements WinningStrategy{
     @Override

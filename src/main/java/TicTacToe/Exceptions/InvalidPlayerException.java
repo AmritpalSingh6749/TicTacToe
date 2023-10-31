@@ -1,4 +1,4 @@
-package Exceptions;
+package TicTacToe.Exceptions;
 
 public class InvalidPlayerException extends RuntimeException{
     public InvalidPlayerException(){

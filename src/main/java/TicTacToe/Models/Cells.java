@@ -1,6 +1,5 @@
-package Models;
+package TicTacToe.Models;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 

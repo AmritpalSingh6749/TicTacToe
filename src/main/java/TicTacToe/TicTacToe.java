@@ -1,9 +1,10 @@
+package TicTacToe;
+
 import Models.*;
-import PlayingStrategy.RandomPlayingStrategy;
+import TicTacToe.Models.*;
+import TicTacToe.PlayingStrategy.RandomPlayingStrategy;
 
 import java.util.Scanner;
-
-import static java.util.stream.Collectors.toList;
 
 public class TicTacToe {
     public static void main(String[] args) {
@@ -34,7 +35,7 @@ public class TicTacToe {
         return new HumanPlayer(symbol,user);
     }
     private static Bot getBotPlayer(Symbols symbol){
-         return new Bot(symbol,Level.EASY, new RandomPlayingStrategy());
+         return new Bot(symbol, Level.EASY, new RandomPlayingStrategy());
     }
 
     private static Symbols getBotSymbol(Symbols symbol) {

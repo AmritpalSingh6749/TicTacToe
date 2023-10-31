@@ -1,7 +1,7 @@
-package Models;
+package TicTacToe.Models;
 
 
-import PlayingStrategy.PlayingStrategies;
+import TicTacToe.PlayingStrategy.PlayingStrategies;
 
 public class Bot extends Players {
     private Level level;

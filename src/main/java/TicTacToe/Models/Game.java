@@ -1,11 +1,11 @@
-package Models;
+package TicTacToe.Models;
 
-import Exceptions.InvalidMoveException;
-import Exceptions.InvalidPlayerException;
-import WinningStrategy.WinningStrategy;
-import WinningStrategy.HoriontalWinningStratgy;
-import WinningStrategy.VerticalWinningStrategy;
-import WinningStrategy.DiagonalWinningStrategy;
+import TicTacToe.Exceptions.InvalidMoveException;
+import TicTacToe.Exceptions.InvalidPlayerException;
+import TicTacToe.WinningStrategy.HoriontalWinningStratgy;
+import TicTacToe.WinningStrategy.WinningStrategy;
+import TicTacToe.WinningStrategy.VerticalWinningStrategy;
+import TicTacToe.WinningStrategy.DiagonalWinningStrategy;
 import lombok.Getter;
 
 import java.util.ArrayList;

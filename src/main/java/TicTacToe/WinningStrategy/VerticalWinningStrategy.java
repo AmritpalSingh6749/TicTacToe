@@ -1,8 +1,7 @@
-package WinningStrategy;
+package TicTacToe.WinningStrategy;
 
-import Models.Board;
-import Models.Cells;
-import Models.Symbols;
+import TicTacToe.Models.Board;
+import TicTacToe.Models.Symbols;
 
 public class VerticalWinningStrategy implements WinningStrategy{
     @Override

@@ -1,10 +1,8 @@
-package WinningStrategy;
+package TicTacToe.WinningStrategy;
 
-import Models.Board;
-import Models.Cells;
-import Models.Symbols;
-
-import java.util.List;
+import TicTacToe.Models.Board;
+import TicTacToe.Models.Cells;
+import TicTacToe.Models.Symbols;
 
 public class HoriontalWinningStratgy implements WinningStrategy{
     @Override
